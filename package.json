@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.ts",
+    "start": "tsx index.ts",
     "dev": "tsx watch index.ts"
   },
   "dependencies": {
