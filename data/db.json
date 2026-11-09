@@ -1,0 +1,107 @@
+{
+  "workouts": [
+    {
+      "id": "61dbae02-c147-4e28-863c-db7bd402b2d6",
+      "name": "Tommy V",
+      "mode": "For Time",
+      "equipment": [
+        "barbell",
+        "rope"
+      ],
+      "exercises": [
+        "21 thrusters",
+        "12 rope climbs, 15 ft",
+        "15 thrusters",
+        "9 rope climbs, 15 ft",
+        "9 thrusters",
+        "6 rope climbs, 15 ft"
+      ],
+      "createdAt": "4/20/2022, 2:21:56 PM",
+      "updatedAt": "4/20/2022, 2:21:56 PM",
+      "trainerTips": [
+        "Split the 21 thrusters as needed",
+        "Try to do the 9 and 6 thrusters unbroken",
+        "RX Weights: 115lb/75lb"
+      ]
+    },
+    {
+      "id": "4a3d9aaa-608c-49a7-a004-66305ad4ab50",
+      "name": "Dead Push-Ups",
+      "mode": "AMRAP 10",
+      "equipment": [
+        "barbell"
+      ],
+      "exercises": [
+        "15 deadlifts",
+        "15 hand-release push-ups"
+      ],
+      "createdAt": "1/25/2022, 1:15:44 PM",
+      "updatedAt": "3/10/2022, 8:21:56 AM",
+      "trainerTips": [
+        "Deadlifts are meant to be light",
+        "Keep a steady pace"
+      ]
+    },
+    {
+      "id": "d8be2362-7b68-4ea4-a1f4-c86c1dc2dc5e",
+      "name": "Heavy DT",
+      "mode": "For Time",
+      "equipment": [
+        "barbell",
+        "rope"
+      ],
+      "exercises": [
+        "12 deadlifts",
+        "9 hang power cleans",
+        "6 push jerks"
+      ],
+      "createdAt": "11/20/2021, 9:11:22 AM",
+      "updatedAt": "11/20/2021, 9:11:22 AM",
+      "trainerTips": [
+        "Heavy DT: 5 rounds for time",
+        "RX Weights: 205lb/145lb"
+      ]
+    }
+  ],
+  "members": [
+    {
+      "id": "12a410bc-849f-4e7e-bfc8-4ef283ee4b19",
+      "name": "Jason Miller",
+      "gender": "male",
+      "dateOfBirth": "23/04/1990",
+      "email": "jason@mail.com",
+      "password": "$2b$10$0000000000000000000000.fakehashparaejemplo0000000000000000"
+    },
+    {
+      "id": "2dd5a2d0-4fe3-4b2c-8a2a-5a5b8f0d6a11",
+      "name": "Lisa Jenkins",
+      "gender": "female",
+      "dateOfBirth": "09/12/1998",
+      "email": "lisa@mail.com",
+      "password": "$2b$10$0000000000000000000000.fakehashparaejemplo0000000000000000"
+    }
+  ],
+  "records": [
+    {
+      "id": "ad75d475-ac57-44f4-a02a-8f6def58ff56",
+      "workout": "61dbae02-c147-4e28-863c-db7bd402b2d6",
+      "record": "160 reps",
+      "memberId": "12a410bc-849f-4e7e-bfc8-4ef283ee4b19",
+      "member": "/members/12a410bc-849f-4e7e-bfc8-4ef283ee4b19"
+    },
+    {
+      "id": "0d5e1c1d-6a2a-4f1c-9f9e-3b1d7c4e8f02",
+      "workout": "4a3d9aaa-608c-49a7-a004-66305ad4ab50",
+      "record": "230 reps",
+      "memberId": "2dd5a2d0-4fe3-4b2c-8a2a-5a5b8f0d6a11",
+      "member": "/members/2dd5a2d0-4fe3-4b2c-8a2a-5a5b8f0d6a11"
+    },
+    {
+      "id": "3f9c7b6e-1a4d-4c3e-8d2b-7e6a5f4c3b21",
+      "workout": "d8be2362-7b68-4ea4-a1f4-c86c1dc2dc5e",
+      "record": "13:45",
+      "memberId": "12a410bc-849f-4e7e-bfc8-4ef283ee4b19",
+      "member": "/members/12a410bc-849f-4e7e-bfc8-4ef283ee4b19"
+    }
+  ]
+}
